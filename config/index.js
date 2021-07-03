@@ -1,14 +1,14 @@
 module.exports = {
   //-- SITE SETTINGS -----
-  author: "@konstantinmuenster",
-  siteTitle: "Gatsby Starter Portfolio Minimal",
-  siteShortTitle: "Gatsby", // Used as logo text in header, footer, and splash screen
+  author: "@konstantinmuenster, @erosnolasco.eth",
+  siteTitle: "Eros Nolasco-Mendoza Portfolio",
+  siteShortTitle: "Eros Nolasco-Mendoza", // Used as logo text in header, footer, and splash screen
   siteDescription:
-    "A modern one-page portfolio with a clean yet expressive design.",
+    "Eros Nolasco Mendoza - an American programmer and entrepeneur's Portfolio.",
   siteUrl: "https://gatsby-starter-portfolio-minimal.netlify.app/",
   siteLanguage: "en_US",
   siteIcon: "content/favicon.png", // Relative to gatsby-config file
-  seoTitleSuffix: "Portfolio Minimal", // SEO title syntax will be e.g. "Imprint - {seoTitleSuffix}"
+  seoTitleSuffix: "Eros Nolasco Mendoza Portfolio", // SEO title syntax will be e.g. "Imprint - {seoTitleSuffix}"
   useCookieBar: false, // If you use Google Analytics and want to be GDPR-compliant, set it to true
   googleAnalyticsTrackingId: "", // e.g. UA-XXXXXX-X
 
@@ -57,25 +57,24 @@ module.exports = {
   // Medium, GitHub, LinkedIn, XING, Behance, E-Mail
   socialMedia: [
     {
-      name: "Linkedin",
-      url: "https://www.linkedin.com/in/konstantin-muenster/",
-    },
-    {
-      name: "Medium",
-      url: "https://konstantinmuenster.medium.com/",
-    },
-    {
       name: "Github",
-      url:
-        "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal",
+      url: "https://github.com/erosnol",
     },
     {
-      name: "Behance",
-      url: "https://www.behance.net/konstanmnster",
+      name: "Linkedin",
+      url: "https://www.linkedin.com/in/eros-nolasco-mendoza-7660821a3/",
+    },
+    {
+      name: "Twitter",
+      url: "https://twitter.com/erosnolasco",
+    },
+    {
+      name: "Everipedia",
+      url: "https://everipedia.org/wiki/lang_en/eros-nolasco",
     },
     // {
     //   name: "Mail",
-    //   url: "mailto:mail@konstantin.digital",
+    //   url: "erosnolasco@protonmail.com",
     // },
   ],
 
@@ -87,7 +86,7 @@ module.exports = {
         url: "/#about",
       },
       {
-        name: "Features",
+        name: "Projects",
         url: "/#projects",
       },
       {
